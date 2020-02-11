@@ -1,0 +1,100 @@
+<html>
+<head>
+<body background="#FFFFFF">
+<center><img src="logo.png" width=550 heigth=550></img>
+<br><br>
+<html>
+	<head>
+		<title>Inicio</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:150px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:;
+				color:#000000;
+				text-decoration:none;
+				padding:4px 6px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#C0C0C0;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<center>
+				<li><a href="">NOSOTROS</a>
+					<ul>
+						<li><a href="analisis.html">¿Qué es esto?</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+</body>
+ <!--	
+-->
+<br><br><br>
+<center>
+<script>
+function usrpas(){
+if (document.form1.txt.value=="comprador" && document.form1.num.value=="comprador"){window.location="productos.html";return}
+if (document.form1.txt.value=="administrador" && document.form1.num.value=="administrador"){window.location="admin.html";}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+<center>
+<form name="form1"><font size=4>
+ Usuario <input type="text" name="txt"><br/><br/>
+ Contraseña <input type="password" name="num"><br/><br/>
+<input type="Button" value="iniciar sesión" onClick="usrpas()"></font>
+</form>
+<body>
+<html>
+<marquee width=70%><font face=arial color="black" size=3><b>© Sweet Time 1998-2020. Todos los derechos reservados. Equipo10</font></marquee></center>
+</body>
+</html>
